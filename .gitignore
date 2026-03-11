@@ -1,0 +1,45 @@
+# Environment
+.env
+*.env
+
+# Secrets — never commit service account files
+secrets/
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+.eggs/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files from ingestion
+tmp/
+*.tmp
